@@ -1,0 +1,108 @@
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (min-width: 600px) {
+  #container {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  #nav {
+    width: 600px;
+  }
+}
+
+body {
+  font-family: serif;
+}
+
+.site-title {
+  font-size: 200%;
+  margin: 1em 0;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+#nav {
+  height: 1em;
+  padding: 0 0 1em 0;
+  margin: 0;
+}
+
+#nav li {
+  padding: 0 2em 0 0;
+  list-style-type: none;
+  float: left;
+}
+
+#nav li a {
+  font-weight: bold;
+  color: #00325F;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  color: #C10043;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  color: #00325F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C10043;
+}
+
+.papers li {
+  padding: 0 0 1.3em 0;
+  line-height: 140%;
+}
+
+.papers a {
+  color: #00325F;
+}
+
+.papers a:hover {
+  text-decoration: underline;
+  color: #C10043;
+}
+
+.papers .title {
+  font-weight: bold;
+  color: #00325F;
+  font-size: 90%;
+}
+
+.note {
+  font-size: 80%;
+  color: #990099;
+}
+
+.tool li {
+  margin: 1em 0;
+}
+
+#wts927403 {
+  visibility: hidden;
+}

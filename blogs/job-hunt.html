@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Job Hunt - Yu-An Chung</title>
+<link rel="stylesheet" type="text/css" href="../main.css" />
+<style type="text/css">
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.5em;
+}
+
+#footnote {
+  margin: 2em 0;
+}
+
+#footnote td {
+  vertical-align: top;
+  padding: 0.25em 0;
+}
+</style>
+</head>
+<body>
+
+<div id="container">
+
+<p class="site-title">Yu-An Chung</p>
+
+<ul id="nav">
+  <li><a href="../index.html">about</a></li>
+  <li><a href="../papers.html">papers</a></li>
+  <li><a href="../thesis.html">thesis</a></li>
+  <li><a href="../notes.html">notes</a></li>
+</ul>
+
+<div class="clear"></div>
+
+<article>
+
+<p>
+(<b>Jan. 9, 2022 新增</b>): 對於我 Google 實習轉正過程 and/or 跟 Google 談判經驗有興趣的人，請參閱<a href="./google-specific.html">此文章</a>。
+</p>
+
+<header>
+<h1>2021-2022 Job Hunt Experience</h1>
+<p><time datetime="2022-01-07">Jan. 7, 2022</time></p>
+</header>
+
+<p>
+這幾天寫博士論文之餘閒來無事，加之本身比較熱心（雞婆）的個性，因此想來分享一下我自己 2021 年末求職的一些心得。一來覺得這些我自己摸索出來的經驗不與人分享有點可惜
+，二來也當作是記錄人生中第一次求職前與後的一些心態與認知的轉變。
+</p>
+
+<h2>為何想寫這篇文章？</h2>
+<p>
+類似我的背景的人 (CS/ML PhD looking for Research Scientist position) 相對於普遍 CS Master/Bachelor looking for Software Engineer position 的人非常的少，而會在網路上分享經驗的更少；因此當你有跟我類似背景/志向，而想在網路上找參考資訊時，常常會找到跟你的背景其實不那麼契合的人所提供的經驗，而這些經驗儘管可以供你作為參考，但是往往並不那麼精確地反映你的狀況，甚至很可能會「誤導」你的一些策略與決定（尤其是當你在跟公司談薪的時候，你對市場/自身條件的了解程度會大大決定你最後拿到的薪水，具體例子在談薪水的 section 會提到）。所以這篇文章最大的目的就是給類似我的背景的人提供一個 data point.
+</p>
+
+<p>
+我會以 Q&A 的形式來呈現這篇文章。這些問題都是我曾經有過的疑問，我認為非常適合給與我有類似背景/志向的人做參考。此外，我不會 include 任何「聽說」或「我朋友告訴我」諸如此類的訊息，而會以我自己的親身經歷與見解為主。我希望能為與我當初有相同疑問的人提供一個直接了當、一針見血的回答。
+</p>
+
+<h2>目標觀眾群是誰？</h2>
+<p>
+<ul>
+  <li>（主要）CS/ML PhD new grad/在學生，之後想找業界 big tech (Google, Meta, Amazon, Apple, etc.) Research Scientist position 的人</li>
+  <li>（次要）在猶豫該不該念 PhD 的人</li>
+</ul>
+</p>
+
+<h2>Outline</h2>
+<table style="border:1px solid black; text-indent:15px">
+<tr>
+<td><a href="#about_position"><u>Section 1. 關於工作崗位與面試</u></a></td>
+</tr>
+<tr>
+<td><a href="#what_positions">1-1. 你申請/面試了哪些公司、哪些職位？</a></td>
+</tr>
+<tr>
+<td><a href="#what_is_rs">1-2. Research Scientist 在做什麼？</a></td>
+</tr>
+<tr>
+<td><a href="#interview_form">1-3. 面試要幾輪？都在問些什麼？</a></td>
+</tr>
+<tr>
+<td><a href="#how_to_prepare">1-4. 怎麼準備面試？</a></td>
+</tr>
+<tr>
+<td><a href="#about_negotiation"><u>Section 2. 關於談薪水</u></a></td>
+</tr>
+<tr>
+<td><a href="#should_i_negotiate">2-1. 我該談薪水嗎？</a></td>
+</tr>
+<tr>
+<td><a href="#how_to_negotiate">2-2. 該怎麼談薪水？</a></td>
+</tr>
+<tr>
+<td><a href="#about_phd_career"><u>Section 3. 關於博士學位與職涯發展</u></a></td>
+</tr>
+<tr>
+<td><a href="#phd_for_rs">3-1. 一定要有 PhD 才能當 Research Scientist 嗎？</a></td>
+</tr>
+<tr>
+<td><a href="#phd_salary">3-2. 有 PhD 會讓你之後賺更多錢嗎（相較於只有 MS/BS degree 的人）？</a></td>
+</tr>
+</table>
+
+
+<h2><a id="about_position"><u>Section 1. 關於工作崗位與面試</u></a></h2>
+<h3><a id="what_positions">1-1. 你申請/面試了哪些公司、哪些職位？</a></h3>
+<p>
+  總計四家：Google, Meta, Amazon, and Apple. 因為已經拿到前三家的 offer, 所以沒面完 Apple (只過了 phone screen 還沒約 onsite). Position 以及管道如下：
+  <ul>
+    <li>Google: Research Scientist; 實習轉正</li>
+    <li>Meta: Research Scientist; hiring manager 主動 reach out</li>
+    <li>Amazon: Applied Scientist; 朋友內推</li>
+    <li>Apple: ML/NLP/Speech Scientist; 網上海投</li>
+  </ul>
+
+  在這裡特別註明一點：Google, Meta, and Amazon 如果你同時面了很多組，公司會儘量安排只讓你走一遍的 interview 流程，然後這個流程會 involve 各個組的人。當他們決定 hire 你後，你再選擇你要的組 commit, 然後他們再給你發 offer. Apple 的話則比較累，他們是每個組「分開招」，也就是說假設你面 Apple 三個不同組，就得經歷三個完整的 interview 流程（可以理解為面三家公司）。
+</p>
+
+<h3><a id="what_is_rs">1-2. Research Scientist 在做什麼？</a></h3>
+<p>
+每家公司的 Research Scientist 的實際職務略有不同，但大致上可以理解為就是在業界做研究跟發論文。與在學界較大不同之處在於：<br>
+<u>Pros</u>:
+  <ul>
+    <li>不用寫 proposal 到處要 funding, 也就是沒有任何 sponsership-related 的雜事 </li>
+    <li>相較於學界，大公司計算資源充足、實驗 pipeline 較完整、有較強大的 engineering support (我在 Google 實習時對這點深有感觸，完全不需要像在學校的時候什麼都要自己寫自己幹)。所以實驗迭代更快，結果也通常比較好</li>
+    <li>收入比學界高</li>
+  </ul>
+<u>Cons</u>:
+  <ul>
+    <li>做的研究通常必須符合公司/部門方向（短則 2-3 年長則 5-10 年東西通常必須落地成產品），可以理解為比較沒有研究自由</li>
+    <li>業界比較 application-driven: 你做的研究的目標最好是要能解決/改進某個已經 well-defined 且有商業價值的問題/應用（甚至最好是公司已經 launch 的產品），畢竟這才能最直接的讓公司賺錢。對於「思考、發覺、定義新的問題」這種 "real science attitude" 業界並不太 appreciate</li>
+  </ul>
+</p>
+
+
+<h3><a id="interview_form">1-3. 面試要幾輪？都在問些什麼？</a></h3>
+<p>
+面試都是 phone screen + onsite. 因為簽了保密協定，我不能具體透露被問了什麼問題，只能講面試形式。
+</p>
+<p>
+  Phone screen 是第一輪的篩選，過了就會 move forward 到 onsite. Phone screen 的形式有兩種，一種是 hiring manager 比較 casual 地跟你聊你的履歷跟背景，沒有什麼 red flag（譬如說你對你自己履歷上寫的東西都支支吾吾）的話就會 move forward. 第二種形式就是比較正式的「濃縮版」onsite, 包括 coding 跟 research interviews. Phone screen 通常介於 30min 到 1hr.
+</p>
+
+<p>
+  Onsite 具體有幾輪各家公司不一，甚至同一家公司同一個 level 但不同職位輪數也會有所不同。在我的 case, Meta 總共有七輪（每輪皆一小時），其中包括：
+  <ul>
+    <li><b>Behavior round</b>: 就是聊你的履歷和與人相處的經驗，確定你不是一個混蛋就好</li>
+    <li><b>Coding round</b>: 是的，準備 Research Scientist interview 還是要像準備 Software Engineer 面試一樣刷 LeetCode, 你逃不掉的</li>
+    <li><b>Presentation round</b>: 給一個 talk, 講講你的代表作，講完會有 Q&A 時間</li>
+    <li><b>System Design round</b>: 根據你面的組，叫你設計一個相關的 system. 比如說你面 speech team, 可能就會叫你設計一個像 Siri 一樣的語音助理（畫出和講解每個 component 的原理、input & output 是什麼、要注意哪些 user case, etc.）</li>
+    <li><b>ML Fundamentals round</b>: 考察你一些 textbook machine learning 的知識。像是解釋什麼是 overfitting, 推導 logistic regression, 和一些基礎的統計與微積分原理之類的</li>
+    <li><b>Research round x2</b>: 這輪形式比較不固定，可以是：對你的 talk 提出一些問題、問你的 domain of expertise 相關的知識（像是做 speech 的話會問你 CTC vs. RNN-T 的 loss function 推導或 Transformer vs. RNN 的優缺點比較 and when to use which）、拿幾篇你的 papers 仔細地聊細節、或甚至大哉問你對於你的 domain 的未來發展的一些觀點與見解</li>
+  </ul>
+</p>
+<p>
+  Amazon 我則面了六輪（每輪皆一小時，並且除了 presentation 其餘都穿插一些 behavior questions）：Presentation, Coding, System Design, Research x3 (形式都類似於 Meta)
+</p>
+<p>
+  Google 我則是因為實習了至少兩次，經過他們內部審核後不用再多面試，因此我對他們外招的面試流程並不清楚。在這裡補充一下關於 2021 年 Google 實習轉正的條件：如果只有實習一次，一定會加面；如果至少實習兩次，有機會不加面（也就是說還是有可能加面，他們會審查），所以不存在「在 Google 實習兩次以上自動轉正」這件事。（後續補充：根據現在在 Google 的朋友指出，2022 年實習轉正的 policy 改成只需要實習一次，並且 by default 不需要加面。我想，<b>針對 Google 實習轉正的條件的 takeaway message 是：policy 可能每年都改來改去，大家這段看看就好。</b>）
+</p>
+
+<h3><a id="how_to_prepare">1-4. 怎麼準備面試？</a></h3>
+<p>
+  如何準備面試每個人適用不同的方法，我這裡只能分享我自己是怎麼準備的：
+  <ul>
+    <li><b>Behavior round</b>: Amazon 是出了名的重視 behavior questions. 你需要根據他們的 14 條 Leadership Principles 準備對應的小故事來彰顯你這個人具備那 14 個特質。我的 recruiter 甚至跟我說我花多少時間準備 technical rounds, 就得花一樣的時間準備 behavior round. 這裡非常推薦 "<a href="https://www.amazon.com/How-Interview-Amazon-International-Professionals-ebook/dp/B07YRYN5XR">How to Interview at Amazon for International Professionals: Learn the American Interview Style and the Amazon Leadership Principles</a>" 這本書。雖然頁數不少，但它的文字讀起來很順，我花了兩天看完覺得受益匪淺。搞定 Amazon 的 behavior round, 其他公司的都只是塊蛋糕。</li>
+    <li><b>Coding round</b>: 直接刷 LeetCode 對應 company tag 的題目，至於刷多少題才夠因人而異。</li>
+    <li><b>Presentation round</b>: 準備時，策略應該是深入地講你一到兩個代表作，而非講一大堆你的 work 但都只是蜻蜓點水。這樣做直接的好處是，後面在 research rounds 你的面試官（他們都會去聽你的 talk）比較有機會問你 present 的 work 的問題（你講的深入他們才問得出有意義的問題，你講的不深入他們沒什麼好問的），這比他們隨機問個你不會的問題好得多。</li>
+    <li><b>System Design round</b>: 我當初一直到面試的當下都不知道這輪要問什麼，所以只能靠 domain knowledge 兵來將擋。如果讓我再準備一次，我會先查好面試官的背景、他們組在做什麼，因為他很可能就是問一個他們組在做的東西要你 design 看看。</li>
+    <li><b>ML Fundamentals & Research rounds</b>: 這部分可以說不好準備（因為範圍太廣），也可以說好準備（因為範圍太廣所以就不用準備了）。我覺得除了好好回憶自己以前的 paper 在做什麼之外就是靠真本事（再加上一些運氣）硬上吧，沒什麼好準備的。</li>
+  </ul>
+</p>
+
+
+<h2><a id="about_negotiation"><u>Section 2. 關於談薪水</u></a></h2>
+<h3><a id="should_i_negotiate">2-1. 我該談薪水嗎？</a></h3>
+<p>
+  要。不管任何情況你都要 negotiate, 即使你只有這一個 offer. 千萬不要有「謝謝公司給我這個機會，我哪敢再多要」的心態。是的，人家的確是在篩選這個崗位適合的人選，但同時你也在篩選哪些公司值得你效力，不要覺得自己比較卑微。至於為什麼要 negotiate? 我認為有以下原因：
+  <ul>
+    <li>你是用自己的勞力和智力換取報酬，當然越高越好</li>
+    <li>Negotiate 就是美式文化的一部分，你要吵才有糖吃，不要裝清高。在美國談判再自然不過</li>
+    <li>因為談判是美式文化的一部分，recruiter 給你報的 offer, 其實常常就是有預留空間給你 negotiate 的，你不 negotiate 就吃虧了，進公司發現同事明明能力跟你差不多但都比你高薪你會很不爽的</li>
+    <li>不要怕因為 negotiate 使 offer 被撤回，這幾乎不會發生，只有在人家對你做 background check 的時候發現你搶過銀行偷過車才會 retract 你的 offer. 試想：人家歷經千辛萬苦，從篩履歷挑出你、幫你安排一堆面試、跟你來來回回通話通信、內部開會決定要不要 hire 你，這過程付出的金錢與時間成本是非常大的。因此一但給你發了 offer, 絕對是希望你能來。他們最不願意的就是撤回你的 offer 讓之前他們的努力都白費。對 Research Scientist 這種很稀缺、很難招人的 position 更是如此</li>
+    <li>反正 worst case 就是薪水不變</li>
+    <li>人生第一份薪水還是很重要的，之後升官、跳槽的薪水漲幅這都是一個關鍵因素</li>
+  </ul>
+</p>
+
+<h3><a id="how_to_negotiate">2-2. 該怎麼談薪水？</a></h3>
+<p>
+  關於 negotiation strategy, 網路上林林總總很多資源，我也讀了不少，但我發現讀這篇真的就夠了：<a href="https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/">https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/</a>. 不管是談判的基礎觀念、心態、以及具體的 strategy 和各種 situation, 這篇都有 cover 到，我沒必要贅述，在這裡我只想強調一些我的經驗談。
+</p>
+<p>
+一、<b>要做功課，但同時也千萬不要被你的數據庫限制住你的可能性。</b>做功課的意思就是你要花時間去了解你面試的這個職位、這個 level 的人大概拿什麼薪水。這方面 <a href="https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer">levels.fyi</a> 還有<a href="https://www.1point3acres.com/bbs/forum-237-1.html">一畝三分地</a>都有很多 data points 可以去查詢。但是我的重點其實在後半句：很多人會把查到的數據的 min 跟 max 解讀為薪資範圍 [X, Y], 然後當他們把薪水談到接近 Y 就會放棄接著往上談。實際上，你是很有可能談到 Y 以上的薪水的，不要因為沒看過別人拿過就以為沒人拿到過。很多時候只是拿到的人沒去分享而已。尤其是像 Google Brain, Meta FAIR, 或是 Amazon AWS/Alexa 這些 research 非常強的組，你能拿到的股票只能用 "the sky's the limit" 來形容。
+</p>
+
+<p>
+二、<b>同一個 level, 甚至同一個職位，有沒有談判薪資差距可以是非常巨大的</b>（二至三倍以上，我親身經驗）。這跟能力無關，可能就只是因為人家多拿了幾個 competing offers 和有好好談判而已。
+</p>
+
+<p>
+三、<b>成功的談判不是一兩週的事情，而是一兩個月（甚至更久）的持久戰</b>。跟每家 recruiter 的來回通信、通話次數也絕不會只是個位數。儘管這聽起來曠日持久，但其實並不會佔用你平時工作的進度，因為你大多數的時間其實也都只是在等公司的 compensation team 調整你的薪資然後讓 recruiter 通知你而已。所以不用擔心因為花時間談判而影響你日常工作的機會成本。唯一可能的挑戰只有內心等待的煎熬而已。
+</p>
+
+
+<h2><a id="about_phd_career"><u>Section 3. 關於博士學位與職涯發展</u></a></h2>
+其實本來沒打算寫這個 Section 因爲我的回答有些露骨。但是我最近收到太多學弟妹的私訊問到底值不值得念博士，然後他們主要的考量基本上都是「多花這幾年唸書」值不值得（講白一點就是之後能不能賺更多錢），我想說乾脆來個 A2A 之後回訊息也可以直接複製貼上.
+
+<h3><a id="phd_for_rs">3-1. 一定要有 PhD 才能當 Research Scientist 嗎？</a></h3>
+看公司，有的要有，有得不用。但話說回來，<b>這個 title 除了可能影響薪水以及自爽外沒有什麼其他意義</b>（BTW, 雖然我說沒有什麼其他意義，但我完全理解很多有博士學位的人對這個 title 的執著，因為我承認我自己也有一點）。以下我列舉一些我對這個 title 在 Google 跟 Meta 這兩家公司零碎的了解，給對這個 title 有莫名執著的人們參考：
+<ul>
+  <li>在 Google, Research Scientist 是真的在做 research 的 (as opposed to some of those in Meta, 等等會說)，有這個 title 的人基本上都有博士學位，極少數沒有博士學位的人在經過 Google 內部審核後也可以從 Software Engineer 轉成 Research Scientist.</li>
+  <li>在 Google, 有非常多有博士學位的人 title 掛的是 Software Engineer, 原因是 Google 對給 Research Scientist 這個 title 審核地非常嚴格。</li>
+  <li>在 Google, 你的組決定你做什麼，跟 title 關係不大。也就是說，如果你在 research team, 即使你是掛 Software Engineer, 也是在做 research.</li>
+  <li>在 Meta, 有博士學位的人可以選擇你要什麼 title (Research Scientist or Software Engineer), 所以跟 Google 很大的不同在於，在 Meta 你可以是掛 Research Scientist 的 title, 但其實是在做 Software Engineer 的事。</li>
+</ul>
+
+<h3><a id="phd_salary">3-2. 有 PhD 會讓你之後賺更多錢嗎（相較於只有 MS/BS degree 的人）？</a></h3>
+<p>
+<b>我不敢說會，但我確定至少不會比較少</b>（或是至少有沒有博士學位不會是個重要因素）。我來幫大家簡單分析一下。
+</p>
+<p>
+長期來看，沒念博士的人可能 23 (BS degree)/25 (MS degree) 歲出來工作，有念博士的人大概 28 歲出來工作。假設一個人工作到 50 歲，這 22-27 年的職涯裡，多花個三（相對於 MS）到五（相對於 BS）年念個博士學位的機會成本應該不會多大，有太多其他因素影響你之後的職涯發展。這還是在忽略博士起薪更高、唸書過程不用付學費而 MS 很燒錢的這些事實下做的論述。
+</p>
+
+<p>
+就算以短期 (3-5 年) 來看, 一個碩士生剛畢業拿年薪 200k 鎂就算高的，三年後滿打滿算年薪漲到 400k, 對比此時的 PhD new grad, 起薪少則 300k, 多則 500k 以上甚至 600k, 其實沒幾年就把所謂的機會成本都賺回來了。之後的發展也就各憑本事，跟學位沒什麼太大的關係（在此我也直接忽略有博士學位對職涯可能有的幫助）。
+</p>
+
+<p>
+<b>總歸來說，如果你不急著賺錢/用錢，又對做研究有熱忱，我認為念個 PhD 是個至少不虧的投資。</b>即使最後你喪失了做研究的動力，永遠可以回去做 software engineer (為了避免誤會，我強調一下做研究跟做碼農沒有孰高孰低，就只是在公司裡做不同的貢獻而已).
+</p>
+
+
+<!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57389600-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Begin Web-Stat code v 6.2 -->
+<!--
+<span id="wts927403">&nbsp;</span><script type="text/javascript">
+var wts=document.createElement('script');wts.type='text/javascript';
+wts.async=true;wts.src=('https:'==document.location.protocol?'https://server2':'http://lb')
++'.web-stat.com/4/927403/log6_2.js';
+document.getElementById('wts927403').appendChild(wts);
+</script><noscript><a href="http://www.web-stat.com">
+<img src="//server2.web-stat.com/6/4/927403.gif" 
+style="border:0px;" alt=""></a></noscript>
+-->
+<!-- End Web-Stat code v 6.2 -->
+
+</body>
+</html>
